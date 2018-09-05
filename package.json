@@ -1,0 +1,24 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asaeed0/W13-FriendFinder.git"
+  },
+  "author": "Amaan Saeed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asaeed0/W13-FriendFinder/issues"
+  },
+  "homepage": "https://github.com/asaeed0/W13-FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
