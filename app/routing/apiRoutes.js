@@ -1,7 +1,9 @@
+//  MODULES
 const path = require('path');
-
 const sidekicks = require('../data/sidekicks');
 
+
+//  FUNCTIONS
 function User(response) {
     let sc = ['q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8', 'q9', 'q10']
     this.name = response.name;
@@ -31,6 +33,8 @@ function findSidekick(user, sidekicksList) {
     return sidekick;
 }
 
+
+// ROUTING
 const routes = (app) => {
 
     app.get('/api/friends', (req, res) => {
